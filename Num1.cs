@@ -11,7 +11,6 @@ public class Num1
     }
     static void ScoreOfString(string s)
     {
-        string word = Console.ReadLine();
         byte[] asciiBytes = Encoding.ASCII.GetBytes(s);
         int bytik = asciiBytes[0];
         int sum = 0;
