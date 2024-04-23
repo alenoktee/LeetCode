@@ -18,6 +18,7 @@ namespace ConsoleApp1
         static void ScoreOfString(string s)
         {
             byte[] asciiBytes = Encoding.ASCII.GetBytes(s);
+            // previous byte
             int bytik = asciiBytes[0];
             int sum = 0;
             for (int i = 1; i < asciiBytes.Length; i++)
