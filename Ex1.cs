@@ -7,7 +7,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Exercise 1:\nEnter the string:");
+            Console.WriteLine("\nExercise 1:\nEnter the string:");
             string word = Console.ReadLine();
             ScoreOfString(word);
 
