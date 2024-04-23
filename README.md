@@ -14,7 +14,7 @@ Return the **score** of 's'.
 
 ## **A little about the program:**
 
-It took about 10 minutes to solve the problem. The program converts the string into an ASCII byte array, storing each character as its corresponding ASCII code. It then goes through each byte and calculates the absolute value of the difference between the current and previous bytes. The resulting difference values are displayed on the screen and also summed to give an overall row score.
+The program converts the string into an ASCII byte array, storing each character as its corresponding ASCII code. It then goes through each byte and calculates the absolute value of the difference between the current and previous bytes. The resulting difference values are displayed on the screen and also summed to give an overall row score.
 
 # **Exercise 2 (21):**
 
